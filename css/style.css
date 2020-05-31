@@ -6,9 +6,12 @@
 }
 
 div[class^="container"] {
-  border: 1px solid black;
   width: 100%;
   height: auto;
+}
+
+section {
+  margin: 50px 0;
 }
 
 /* Header */
@@ -99,6 +102,53 @@ div[class^="container"] {
 }
 
 /* Services */
+.container-services .service-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container-services .service-title h3 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.container-services .service-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  margin: auto 15%;
+}
+
+.container-services .service-box .services-box-1, .container-services .service-box .services-box-2, .container-services .service-box .services-box-3 {
+  width: 30%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.container-services .service-box h5 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.container-services .service-box i {
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.container-services p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 13px;
+}
+
 /* Portfolio */
 /* Footer */
 /*# sourceMappingURL=style.css.map */
