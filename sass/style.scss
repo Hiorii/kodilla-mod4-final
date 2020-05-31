@@ -1,0 +1,67 @@
+/* Variables */
+
+$main_text_color: white;
+$transition: all 0.5s ease-out;
+
+/* GLOBAL */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+div[class^="container"] {
+    border: 1px solid black;
+    width: 100%;
+    height: auto;
+} 
+
+/* Header */
+
+.container-head {
+    .head-foto {    
+        position: relative;
+        background-image: url("https://images.pexels.com/photos/2120021/pexels-photo-2120021.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 30rem;
+        width: 100%;
+        //opacity: 0.5;
+    }
+    .splash {
+        position: absolute;
+        text-align: center;
+        top: 20%;
+        left: 28%;
+        h1, h3 {
+            color: $main_text_color;
+            line-height: 50px;
+        }
+        .btn-splash {
+            background-color: orange;
+            border: none;
+            border-radius: 7%;
+            padding: 10px;
+            color: white;
+            transition: $transition;
+            margin-top: 15px;
+            padding: 15px 35px;
+            &:hover {
+                border: 2px solid white;
+            }
+        }
+    }
+}
+
+/* Nav */
+
+
+
+/* Services */
+
+
+
+/* Portfolio */
+
+
+
+/* Footer */

@@ -1,0 +1,55 @@
+/* Variables */
+/* GLOBAL */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+div[class^="container"] {
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+}
+
+/* Header */
+.container-head .head-foto {
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/2120021/pexels-photo-2120021.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  width: 100%;
+}
+
+.container-head .splash {
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  left: 28%;
+}
+
+.container-head .splash h1, .container-head .splash h3 {
+  color: white;
+  line-height: 50px;
+}
+
+.container-head .splash .btn-splash {
+  background-color: orange;
+  border: none;
+  border-radius: 7%;
+  padding: 10px;
+  color: white;
+  transition: all 0.5s ease-out;
+  margin-top: 15px;
+  padding: 15px 35px;
+}
+
+.container-head .splash .btn-splash:hover {
+  border: 2px solid white;
+}
+
+/* Nav */
+/* Services */
+/* Portfolio */
+/* Footer */
+/*# sourceMappingURL=style.css.map */
