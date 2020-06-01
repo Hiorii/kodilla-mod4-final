@@ -11,7 +11,7 @@ div[class^="container"] {
 }
 
 section {
-  margin: 50px 0;
+  margin: 80px 0;
 }
 
 /* Header */
@@ -42,7 +42,7 @@ section {
   border-radius: 7%;
   padding: 10px;
   color: white;
-  transition: all 0.5s ease-out;
+  transition: all 0.3s ease-out;
   margin-top: 15px;
   padding: 15px 35px;
 }
@@ -150,5 +150,84 @@ section {
 }
 
 /* Portfolio */
+.container-portfolio {
+  background-color: #E0E0E0;
+  padding: 80px 0;
+}
+
+.portfolio-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.portfolio-title h3 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 13px;
+}
+
+.portfolio-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: auto 15%;
+}
+
+.portfolio-box .portfolio-box-inner {
+  margin: 15px 5px;
+  transition: all 0.3s ease-out;
+}
+
+.portfolio-box .portfolio-box-inner:hover {
+  border: 2px solid orange;
+}
+
+.portfolio-box .portfolio-desc {
+  text-align: center;
+  background-color: white;
+  padding: 15px 0;
+}
+
+.portfolio-box .portfolio-picture {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 180px;
+  height: 200px;
+}
+
+.portfolio-box .pic1 {
+  background-image: url("https://images.pexels.com/photos/3733338/pexels-photo-3733338.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+
+.portfolio-box .pic2 {
+  background-image: url("https://images.pexels.com/photos/257897/pexels-photo-257897.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+
+.portfolio-box .pic3 {
+  background-image: url("https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+
+.portfolio-box .pic4 {
+  background-image: url("https://images.pexels.com/photos/1021876/pexels-photo-1021876.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+
+.portfolio-box .pic5 {
+  background-image: url("https://images.pexels.com/photos/4068310/pexels-photo-4068310.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+
+.portfolio-box .pic6 {
+  background-image: url("https://images.pexels.com/photos/2278646/pexels-photo-2278646.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+}
+
 /* Footer */
 /*# sourceMappingURL=style.css.map */
