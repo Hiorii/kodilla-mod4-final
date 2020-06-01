@@ -27,8 +27,9 @@ section {
 .container-head .splash {
   position: absolute;
   text-align: center;
-  top: 20%;
-  left: 28%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .container-head .splash h1, .container-head .splash h3 {
@@ -187,7 +188,9 @@ section {
 }
 
 .porfolio .portfolio-box .portfolio-box-inner {
-  margin: 15px 5px;
+  -ms-flex: 25%;
+      flex: 25%;
+  padding: 20px;
   transition: all 0.3s ease-out;
 }
 
@@ -199,6 +202,7 @@ section {
   text-align: center;
   background-color: white;
   padding: 15px 0;
+  width: 180px;
 }
 
 .porfolio .portfolio-box .portfolio-picture {
@@ -239,17 +243,33 @@ section {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
   padding: 25px 0;
 }
 
 .container-foot .footer-text {
   font-size: 13px;
   margin-right: 80px;
-  margin-left: 15%;
+  margin-left: auto;
 }
 
 .container-foot .footer-icons {
   font-size: 35px;
   margin-left: 0;
+}
+
+/* Media */
+@media screen and (max-width: 768px) {
+  .menu ul {
+    float: right;
+    margin-right: 6px;
+  }
+  .menu ul li {
+    float: none;
+  }
+  .menu ul li a {
+    display: inline-block;
+  }
 }
 /*# sourceMappingURL=style.css.map */
