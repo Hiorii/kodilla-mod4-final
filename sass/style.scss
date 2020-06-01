@@ -141,66 +141,83 @@ section {
 }
 
 /* Portfolio */
-.container-portfolio {
-    background-color: #E0E0E0;
-    padding: 80px 0;
-}
-.portfolio-title {
-    text-align: center;
-    margin-bottom: 20px;
-    h3 {
-        font-size: 35px;
-        margin-bottom: 10px;
+.porfolio {
+    margin-bottom: 0;
+    .container-portfolio {
+        background-color: #E0E0E0;
+        padding: 80px 0;
     }
-} 
-p {
-    font-family: 'Architects Daughter', cursive;
-    font-size: 13px;
-}
-.portfolio-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: auto 15%;   
-    .portfolio-box-inner {
-        margin: 15px 5px;
-        transition: $transition;
-        &:hover {
-            border: 2px solid $main_components_color;                       
-        }
-    }     
-    .portfolio-desc {
+    .portfolio-title {
         text-align: center;
-        background-color: white;
-        padding: 15px 0;
+        margin-bottom: 20px;
+        h3 {
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+    } 
+    p {
+        font-family: 'Architects Daughter', cursive;
+        font-size: 13px;
     }
-    .portfolio-picture {        
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 180px;
-        height: 200px;        
-    }
-    .pic1 {
-        background-image: url("https://images.pexels.com/photos/3733338/pexels-photo-3733338.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-    }
-    .pic2 {
-        background-image: url("https://images.pexels.com/photos/257897/pexels-photo-257897.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-    }
-    .pic3 {
-        background-image: url("https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-    }
-    .pic4 {
-        background-image: url("https://images.pexels.com/photos/1021876/pexels-photo-1021876.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-    }
-    .pic5 {
-        background-image: url("https://images.pexels.com/photos/4068310/pexels-photo-4068310.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-    }
-    .pic6 {
-        background-image: url("https://images.pexels.com/photos/2278646/pexels-photo-2278646.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    .portfolio-box {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: auto 15%;   
+        .portfolio-box-inner {
+            margin: 15px 5px;
+            transition: $transition;
+            &:hover {
+                border: 2px solid $main_components_color;                       
+            }
+        }     
+        .portfolio-desc {
+            text-align: center;
+            background-color: white;
+            padding: 15px 0;
+        }
+        .portfolio-picture {        
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            width: 180px;
+            height: 200px;        
+        }
+        .pic1 {
+            background-image: url("https://images.pexels.com/photos/3733338/pexels-photo-3733338.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        }
+        .pic2 {
+            background-image: url("https://images.pexels.com/photos/257897/pexels-photo-257897.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        }
+        .pic3 {
+            background-image: url("https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        }
+        .pic4 {
+            background-image: url("https://images.pexels.com/photos/1021876/pexels-photo-1021876.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        }
+        .pic5 {
+            background-image: url("https://images.pexels.com/photos/4068310/pexels-photo-4068310.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        }
+        .pic6 {
+            background-image: url("https://images.pexels.com/photos/2278646/pexels-photo-2278646.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        }
     }
 }
-
 
 /* Footer */
+
+.container-foot {
+    display: flex;
+    align-items: center;   
+    padding: 25px 0;    
+    .footer-text {
+        font-size: 13px;      
+        margin-right: 80px;
+        margin-left: 15%;  
+    }
+    .footer-icons {        
+        font-size: 35px;        
+        margin-left: 0;               
+    }
+}
