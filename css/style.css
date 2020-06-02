@@ -39,7 +39,6 @@ section {
 
 .container-head .splash .btn-splash {
   background-color: orange;
-  border: none;
   border-radius: 7%;
   color: white;
   transition: all 0.3s ease-out;
@@ -150,31 +149,31 @@ section {
 }
 
 /* Portfolio */
-.porfolio {
+.portfolio {
   margin-bottom: 0;
 }
 
-.porfolio .container-portfolio {
+.portfolio .container-portfolio {
   background-color: #E0E0E0;
   padding: 80px 0;
 }
 
-.porfolio .portfolio-title {
+.portfolio .portfolio-title {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.porfolio .portfolio-title h3 {
+.portfolio .portfolio-title h3 {
   font-size: 35px;
   margin-bottom: 10px;
 }
 
-.porfolio p {
+.portfolio p {
   font-family: 'Architects Daughter', cursive;
   font-size: 13px;
 }
 
-.porfolio .portfolio-box {
+.portfolio .portfolio-box {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -186,21 +185,21 @@ section {
   margin: auto 15%;
 }
 
-.porfolio .portfolio-box .portfolio-box-inner {
+.portfolio .portfolio-box .portfolio-box-inner {
   -ms-flex: 25%;
       flex: 25%;
   padding: 20px;
   transition: all 0.3s ease-out;
 }
 
-.porfolio .portfolio-box .portfolio-desc {
+.portfolio .portfolio-box .portfolio-desc {
   text-align: center;
   background-color: white;
   padding: 15px 0;
   width: 180px;
 }
 
-.porfolio .portfolio-box .portfolio-picture {
+.portfolio .portfolio-box .portfolio-picture {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -208,31 +207,31 @@ section {
   height: 200px;
 }
 
-.porfolio .portfolio-box .portfolio-picture:hover {
+.portfolio .portfolio-box .portfolio-picture:hover {
   border: 2px solid orange;
 }
 
-.porfolio .portfolio-box .pic1 {
+.portfolio .portfolio-box .pic1 {
   background-image: url("https://images.pexels.com/photos/3733338/pexels-photo-3733338.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
 }
 
-.porfolio .portfolio-box .pic2 {
+.portfolio .portfolio-box .pic2 {
   background-image: url("https://images.pexels.com/photos/257897/pexels-photo-257897.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
 }
 
-.porfolio .portfolio-box .pic3 {
+.portfolio .portfolio-box .pic3 {
   background-image: url("https://images.pexels.com/photos/260024/pexels-photo-260024.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
 }
 
-.porfolio .portfolio-box .pic4 {
+.portfolio .portfolio-box .pic4 {
   background-image: url("https://images.pexels.com/photos/1021876/pexels-photo-1021876.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
 }
 
-.porfolio .portfolio-box .pic5 {
+.portfolio .portfolio-box .pic5 {
   background-image: url("https://images.pexels.com/photos/4068310/pexels-photo-4068310.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
 }
 
-.porfolio .portfolio-box .pic6 {
+.portfolio .portfolio-box .pic6 {
   background-image: url("https://images.pexels.com/photos/2278646/pexels-photo-2278646.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
 }
 

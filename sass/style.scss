@@ -40,8 +40,7 @@ section {
             line-height: 50px;
         }
         .btn-splash {
-            background-color: $main_components_color;
-            border: none;
+            background-color: $main_components_color;            
             border-radius: 7%;
             color: white;
             transition: $transition;
@@ -142,7 +141,7 @@ section {
 
 /* Portfolio */
 
-.porfolio {
+.portfolio {
     margin-bottom: 0;
     .container-portfolio {
         background-color: #E0E0E0;
