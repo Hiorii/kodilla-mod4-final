@@ -41,11 +41,11 @@ section {
   background-color: orange;
   border: none;
   border-radius: 7%;
-  padding: 10px;
   color: white;
   transition: all 0.3s ease-out;
   margin-top: 15px;
   padding: 15px 35px;
+  border: 2px solid transparent;
 }
 
 .container-head .splash .btn-splash:hover {
@@ -70,7 +70,6 @@ section {
 
 .menu .logo a {
   text-decoration: none;
-  color: white;
   font-family: 'Chelsea Market', cursive;
   font-size: 30px;
   color: orange;
@@ -84,17 +83,17 @@ section {
   margin-right: 60px;
 }
 
-.menu li {
+.menu ul li {
   float: left;
 }
 
-.menu li:hover {
+.menu ul li:hover {
   color: black;
   background-color: orange;
   border-radius: 10%;
 }
 
-.menu li a {
+.menu ul li a {
   color: white;
   display: inline-block;
   text-align: center;
@@ -194,10 +193,6 @@ section {
   transition: all 0.3s ease-out;
 }
 
-.porfolio .portfolio-box .portfolio-box-inner:hover {
-  border: 2px solid orange;
-}
-
 .porfolio .portfolio-box .portfolio-desc {
   text-align: center;
   background-color: white;
@@ -211,6 +206,10 @@ section {
   background-position: center;
   width: 180px;
   height: 200px;
+}
+
+.porfolio .portfolio-box .portfolio-picture:hover {
+  border: 2px solid orange;
 }
 
 .porfolio .portfolio-box .pic1 {
